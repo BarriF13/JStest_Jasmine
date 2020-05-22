@@ -18,11 +18,13 @@ describe('calculate addition', function(){
 
   it ('Should be able to add two numbers together', function(){
     // console.log('I was able to add two numbers together')
-    console.log(calculate.add(1,3));
+    // console.log(calculate.add(1,3));
+    expect(calculate.add(1,3)).toBe(4);
   });
   it ('Should be able to add two numbers together', function(){
     // console.log('I was able to add three numbers together')
-    console.log(calculate.minus(5,4));
+    // console.log(calculate.minus(5,4));
+    expect(calculate.minus(5,4)).toBe(1);
   });
   // describe('calculate addition with minus numbers', function() {
   //   it ('should be able to add -2 and -2 ', function(){
